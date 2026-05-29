@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doce Esperança | Guia de Diabetes Gestacional</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="logo">
+                <i class="fa-solid fa-heart-pulse"></i> Doce<span>Esperança</span>
+            </a>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="nav-links">
+                <a href="#inicio">Início</a>
+                <a href="#alimentacao">Alimentação</a>
+                <a href="#glicose">Controle</a>
+                <a href="#estresse">Bem-Estar</a>
+                <a href="#atendimento">Atendimento</a>
+                <a href="#faq">Dúvidas</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-tag">Cuidado e Acolhimento</span>
+                <h1>Uma jornada leve e segura na sua gestação</h1>
+                <p>Descobrir o diabetes gestacional pode trazer dúvidas, mas com informação, carinho e os cuidados certos, você e seu bebê passarão por essa fase com total saúde e serenidade.</p>
+                <a href="#alimentacao" class="btn-primary">Começar Guia Prático</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&q=80&w=600" alt="Gestante sorridente acariciando a barriga">
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="container text-center">
+            <div class="section-title">
+                <h2>O que é o Diabetes Gestacional?</h2>
+                <p>Uma condição temporária que reflete o quanto seu corpo está trabalhando dobrado por vocês dois.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Durante a gravidez, a placenta produz hormônios essenciais para o desenvolvimento do bebê, mas que podem dificultar a ação da insulina no corpo da mãe. Quando o pâncreas não consegue compensar essa demanda, os níveis de açúcar no sangue sobem.</p>
+                    <p><strong>A boa notícia?</strong> É uma condição perfeitamente controlável através de hábitos saudáveis e acompanhamento médico adequado, revertendo-se quase sempre logo após o parto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="alimentacao" class="diet-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Alimentação Equilibrada</h2>
+                <p>Nutrir o seu corpo de forma gostosa, consciente e sem neuras.</p>
+            </div>
+            
+            <div class="diet-grid">
+                <div class="diet-card recommended">
+                    <div class="card-badge green"><i class="fa-solid fa-circle-check"></i> Recomendados</div>
+                    <h3>Nutrientes que Abraçam</h3>
+                    <p class="card-intro">Alimentos de digestão lenta que mantêm a energia estável:</p>
+                    <ul>
+                        <li><i class="fa-solid fa-leaf"></i> <strong>Vegetais de folhas escuras:</strong> Ricos em ferro e fibras.</li>
+                        <li><i class="fa-solid fa-wheat-awn"></i> <strong>Grãos Integrais:</strong> Aveia, arroz integral e quinoa.</li>
+                        <li><i class="fa-solid fa-egg"></i> <strong>Proteínas Magras:</strong> Ovos, frango, peixes e豆腐 (tofu).</li>
+                        <li><i class="fa-solid fa-apple-whole"></i> <strong>Frutas com casca/bagaço:</strong> Maçã, pera e kiwi (com moderação).</li>
+                    </ul>
+                </div>
+
+                <div class="diet-card avoid">
+                    <div class="card-badge red"><i class="fa-solid fa-circle-xmark"></i> Evitar / Moderar</div>
+                    <h3>Atenção Redobrada</h3>
+                    <p class="card-intro">Alimentos que geram picos rápidos de glicose no sangue:</p>
+                    <ul>
+                        <li><i class="fa-solid fa-candy-cane"></i> <strong>Açúcares refinados:</strong> Doces, refrigerantes e bolos.</li>
+                        <li><i class="fa-solid fa-bread-slice"></i> <strong>Farinhas brancas:</strong> Pão francês, massas e biscoitos pesados.</li>
+                        <li><i class="fa-solid fa-glass-water"></i> <strong>Sucos coados:</strong> Mesmo os naturais perdem fibras e concentram muito açúcar.</li>
+                        <li><i class="fa-solid fa-box-open"></i> <strong>Ultraprocessados:</strong> Salgadinhos e pratos congelados prontos.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="glicose" class="glucose-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Monitoramento e Metas de Glicose</h2>
+                <p>Entender os números traz segurança e direciona as escolhas do seu dia a dia.</p>
+            </div>
+
+            <div class="table-responsive">
+                <table class="glucose-table">
+                    <thead>
+                        <tr>
+                            <th>Momento da Medição</th>
+                            <th>Valores Desejáveis (Alvo)</th>
+                            <th>Estado de Atenção</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><i class="fa-solid fa-bed"></i> <strong>Em Jejum</strong> (Ao acordar)</td>
+                            <td class="value-good">Abaixo de 95 mg/dL</td>
+                            <td class="value-warning">95 mg/dL ou mais</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-utensils"></i> <strong>1 hora após</strong> a refeição</td>
+                            <td class="value-good">Abaixo de 140 mg/dL</td>
+                            <td class="value-warning">140 mg/dL ou mais</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-clock"></i> <strong>2 horas após</strong> a refeição</td>
+                            <td class="value-good">Abaixo de 120 mg/dL</td>
+                            <td class="value-warning">120 mg/dL ou mais</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="table-note"><i class="fa-solid fa-circle-info"></i> *Nota: Estes valores são referências gerais da Sociedade Brasileira de Diabetes. Siga sempre as orientações personalizadas do seu médico.</p>
+        </div>
+    </section>
+
+    <section id="estresse" class="stress-section">
+        <div class="container">
+            <div class="stress-container">
+                <div class="stress-image">
+                    <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&q=80&w=600" alt="Mulher praticando meditação e relaxamento">
+                </div>
+                <div class="stress-content">
+                    <h2>Mente Calma, Glicose Equilibrada</h2>
+                    <p>Você sabia que o estresse e a ansiedade estimulam a produção de hormônios como o cortisol? Esse hormônio atua bloqueando a ação da insulina, o que pode aumentar os níveis de açúcar no sangue, mesmo que você esteja se alimentando perfeitamente.</p>
+                    
+                    <div class="tips-grid">
+                        <div class="tip-item">
+                            <i class="fa-solid fa-wind"></i>
+                            <div>
+                                <h4>Respire Fundo</h4>
+                                <p>Tire 5 minutos do dia para focar na respiração pausada.</p>
+                            </div>
+                        </div>
+                        <div class="tip-item">
+                            <i class="fa-solid fa-person-walking"></i>
+                            <div>
+                                <h4>Caminhadas Leves</h4>
+                                <p>Movimentar o corpo reduz o estresse e queima glicose naturalmente.</p>
+                            </div>
+                        </div>
+                        <div class="tip-item">
+                            <i class="fa-solid fa-bed"></i>
+                            <div>
+                                <h4>Sono Reparador</h4>
+                                <p>Crie um ritual relaxante antes de dormir para acalmar a mente.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="atendimento" class="care-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Acompanhamento Médico e Cuidados</h2>
+                <p>Você não está sozinha. Conheça a rede de cuidados necessária para esta fase.</p>
+            </div>
+
+            <div class="care-grid">
+                <div class="care-card">
+                    <i class="fa-solid fa-user-doctor icon-care"></i>
+                    <h3>Consultas Frequentes</h3>
+                    <p>O pré-natal do diabetes gestacional costuma ter consultas mais próximas, avaliando o ganho de peso e o crescimento do bebê.</p>
+                </div>
+                <div class="care-card">
+                    <i class="fa-solid fa-droplet icon-care"></i>
+                    <h3>Exames de Rotina</h3>
+                    <p>A curva glicêmica (TOTG) é o exame diagnóstico feito entre a 24ª e 28ª semana de gestação através da coleta de sangue.</p>
+                </div>
+                <div class="care-card">
+                    <i class="fa-solid fa-kit-medical icon-care"></i>
+                    <h3>Onde buscar ajuda?</h3>
+                    <p>Procure sua Unidade Básica de Saúde (UBS) ou o seu obstetra particular. Em casos de tonturas intensas ou mal-estar, recorra à maternidade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq-section">
+        <div class="container style-faq">
+            <div class="section-title text-center">
+                <h2>Dúvidas Frequentes</h2>
+                <p>Respostas diretas para acalmar o seu coração.</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h4><i class="fa-solid fa-question-circle"></i> O diabetes vai sumir depois que o bebê nascer?</h4>
+                    <p>Na grande maioria das vezes, sim. Os níveis costumam normalizar logo após a saída da placenta. Um novo teste é feito 6 semanas após o parto para confirmar.</p>
+                </div>
+                <div class="faq-item">
+                    <h4><i class="fa-solid fa-question-circle"></i> Meu bebê vai nascer com diabetes?</h4>
+                    <p>Não. O risco é de o bebê nascer com um peso mais elevado (macrossomia) ou ter hipoglicemia logo ao nascer se as taxas maternas estiverem descontroladas, mas não com diabetes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3><i class="fa-solid fa-heart-pulse"></i> Doce Esperança</h3>
+                    <p>Um espaço dedicado ao acolhimento e informação transparente para futuras mamães. Gerar uma vida é um milagre que merece leveza.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#alimentacao">Alimentação</a></li>
+                        <li><a href="#glicose">Controle Glicêmico</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Canais de Apoio</h4>
+                    <p><i class="fa-solid fa-envelope"></i> contato@doceesperanca.com.br</p>
+                    <p><i class="fa-solid fa-phone"></i> 0800 123 4567 (Apoio Gestante)</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="footer-bottom">
+                <p>&copy; 2026 Doce Esperança. Desenvolvido com fins educativos e de conscientização.</p>
+                <p class="medical-alert">Conteúdo informativo. Nunca substitua as consultas com seu médico obstetra ou endocrinologista.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
